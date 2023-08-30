@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Wasm: Hello World</title>
+    </head>
+    <body>
+        <script type="module">
+            import init, {greet} from "./pkg/helloworld.js";
+
+            await init();
+            greet();
+
+        </script>
+    </body>
+</html>
